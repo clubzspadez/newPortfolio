@@ -8,7 +8,9 @@
   },
   "author": "J.r",
   "license": "ISC",
-  "dependencies": {
-    "grunt": "^1.0.1"
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "^2.2.1"
   }
 }
