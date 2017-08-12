@@ -1,22 +1,46 @@
 
+/*FONT's available 
+
+font-family: 'Lato', sans-serif;
+font-family: 'Raleway', sans-serif;
+
+*/
+
+
 /*Testing*/
-* { border: 1px solid red; }
+* { border: 1px solid red;
+
+	 }
 
 hr {
 	width: 950px;
+
 }
 
 /*Body*/
 body {
-	width: 950px;
+	font-family: 'Lato', sans-serif;
+	width: 960px;
 	margin: 0 auto;
+	height: 100%;
+	background: #3ba2e4; /* For browsers that do not support gradients */
+    background: -moz-linear-gradient(#3ba2e4, #2378b0); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#3ba2e4, #2378b0); /* Standard syntax */
 }
 
 /* Header*/
 header {
+	/*background-color: #3498db;*/
 	width: 100%;
 	margin: 0 auto ;
+	border-bottom: 2px grey solid;
 
+
+    background: #3ba2e4; /* For browsers that do not support gradients */
+}
+
+header h1{
+	margin:0;
 }
 .logo {
 	float: left;
@@ -28,43 +52,62 @@ header {
 
 /* container */
 .container{
+	background-color: #FFFFFF;
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%;
 	margin: 0 auto;
 	white-space: nowrap;
+	border-bottom: 2px grey solid;
 }
+.content{
+ 	width: 100%;
+ 	margin: 0 auto;
 
+ }
 .about{
 	text-align: center;
 	white-space: normal;
 	display: inline-block;
-	width: 50%;
+	width: 100%;
 	order: 1;
 }
 .about img {
-	width: 50%;
+	margin-top: 3em;
+	-moz-box-shadow:    3px 3px 5px  #ccc;
+    -webkit-box-shadow: 3px 3px 5px #ccc;
+    box-shadow:         3px 3px 5px  #ccc;
+	border: 1px solid #2980b9;
+	width: 25%;
 	border-radius: 50%;
 }
 
-.tools{
+.tools {
+	text-align: center;
 	white-space: normal;
+	width: 100%;
+	order:2;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.row{
+
 	display: inline-block;
-	width: 49%;
-	order: 2;
+	margin: 10px;
 }
 
-.tools ul{
-	padding: 0;
-}
 
-.tools li{
-	list-style: none;
+.devicons{
+	color: #2980b9;
+	font-size: 96px;
+	border-radius: 50%;
 }
 
 /*work*/
 
 #featured {
+	margin-left: 10px;
 	width: 100%;
 	order: 3;
 
@@ -81,11 +124,31 @@ header {
 
 }
 
+.proj img{
+	width: 100%;
+}
+
 /*footer*/
 
 footer {
 	display: flex;
-	justify-content: center;
+	flex-wrap: wrap;
 	width: 100%;
 	margin: 0 auto;
+	margin-top: 1em;
+}
+.icons{
+	text-align: center;
+	order: 1;
+	width: 100%;
+}
+
+.icons a {
+	color: #2980b9;
+	margin: 10px;
+}
+.copy {
+	order: 2;
+	width: 100%;
+	text-align: center;
 }
