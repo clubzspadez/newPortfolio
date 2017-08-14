@@ -17,6 +17,8 @@ hr {
 
 }
 
+
+
 /*Body*/
 body {
 	font-family: 'Lato', sans-serif;
@@ -27,6 +29,8 @@ body {
     background: -moz-linear-gradient(#3ba2e4, #2378b0); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#3ba2e4, #2378b0); /* Standard syntax */
 }
+
+
 
 /* Header*/
 
@@ -220,3 +224,72 @@ footer {
 	width: 100%;
 	text-align: center;
 }
+
+/*MEDIA QUERIES*/
+
+
+
+@media screen and (max-width: 500px){
+	
+	body{
+		width: 100%;
+	}
+	 .container, .work {
+	 	display: flex;
+	 	flex-wrap: wrap;
+		width: 100%;
+	}
+
+	header {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+
+
+	 .name {
+		font-size: 20px;
+	}
+
+	.about img {
+		width: 50%;
+	}
+
+	.content {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.about {
+		width: 100%;
+	}
+
+
+	.proj {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.footer{
+
+	}
+
+}
+
+
+
+@media screen and (max-width: 412px){
+
+	.name h1{
+		display: none;
+	}
+
+}
+
+/*@media screen and (min-width: 600px){
+
+	.name h1{
+		display: initial;
+	}
+
+}*/
