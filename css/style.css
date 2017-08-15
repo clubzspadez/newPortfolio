@@ -166,7 +166,7 @@ header h1 , h3 {
 
 .devicons{
 	color: #2A80B9;
-	font-size: 96px;
+	font-size: 75px;
 	
 }
 
@@ -229,7 +229,7 @@ footer {
 
 
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 740px){
 	
 	body{
 		width: 100%;
@@ -283,8 +283,41 @@ footer {
 	.name h1{
 		display: none;
 	}
+	.devicons{
+	color: #2A80B9;
+	font-size: 40px;
+	
+	}
+	.tools {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
 
 }
+
+
+
+@media screen and (max-width: 1201px){
+
+	.tools {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+	}
+
+}
+
+
+@media screen and (max-width: 850px){
+
+	.about img {
+		width: 40%;
+	}
+
+}
+
+
 
 /*@media screen and (min-width: 600px){
 
