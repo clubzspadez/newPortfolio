@@ -1,5 +1,5 @@
 
-/*FONT's available 
+/*FONT's available
 
 font-family: 'Lato', sans-serif;
 font-family: 'Raleway', sans-serif;
@@ -62,13 +62,11 @@ header {
 	margin: 0;
     text-shadow: 3px 3px 5px  #2A80B9;
 	padding: 0;
-	
 }
 header h1 , h3 {
 	margin:0;
 	padding: 0;
 }
- 
 .topfav {
 	display: inline;
 	opacity: .8;
@@ -167,7 +165,6 @@ header h1 , h3 {
 .devicons{
 	color: #2A80B9;
 	font-size: 75px;
-	
 }
 
 /*work*/
@@ -230,7 +227,6 @@ footer {
 
 
 @media screen and (max-width: 740px){
-	
 	body{
 		width: 100%;
 	}
@@ -286,7 +282,6 @@ footer {
 	.devicons{
 	color: #2A80B9;
 	font-size: 40px;
-	
 	}
 	.tools {
 		display: flex;
