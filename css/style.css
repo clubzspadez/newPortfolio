@@ -10,13 +10,13 @@ font-family: 'Raleway', sans-serif;
 /*Testing*/
 /** { border: 1px solid red;
 
-	 }*/*/
+	 }*/
 
-hr {
-	width: 950px;
-
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
 
 
 /*Body*/
@@ -26,17 +26,16 @@ body {
 	margin: 0 auto;
 	height: 100%;
 	/*background: #3ba2e4;*/ /* For browsers that do not support gradients */
-    background: -moz-linear-gradient(#3ba2e4, #2378b0); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#3ba2e4, #2378b0); /* Standard syntax */
+    /*background: -moz-linear-gradient(#3ba2e4, #2378b0);  For Firefox 3.6 to 15 
+    background: linear-gradient(#3ba2e4, #2378b0);*/ /* Standard syntax */
 }
 
 
 
 /* Header*/
 
-
+/*
 header {
-	height: 150px;
 	width: 100%;
 	margin: 0 auto ;
 	border-bottom: 1px #fff solid;
@@ -45,7 +44,8 @@ header {
 	margin:0;
 	padding: 0;
 	justify-content: center;
-}
+
+}*/
 .logo {
 	padding-top: 20px;
 	text-align: center;
@@ -75,21 +75,22 @@ header h1 , h3 {
 }
 
 .name {
-	margin: auto;
+	font-weight: bold;
+	padding: 0;
+	margin: 0 auto;
 	font-size: 25px;
-	text-shadow: 3px 3px 5px #2A80B9;
-	order: 2;
 	width: 50%;
 	text-align: center;
-	letter-spacing: -3px;
-	color: #fff;
-	font-family: 'Raleway', sans-serif;
+	color: #000;
 }
 
 .name h1 {
-    -webkit-text-stroke-width: 4px;
-    -webkit-text-stroke-color: #000;
+	margin-bottom: -5px;
+	font-size: 200%;
+	font-weight: 700;
+    text-transform: uppercase;
 }
+
 
 /* container */
 .container{
@@ -116,6 +117,8 @@ header h1 , h3 {
  }
 
 .about{
+	margin: 40px;
+	font-family: 'Source Sans Pro', sans-serif;
 	text-align: center;
 	white-space: normal;
 	display: inline-block;
@@ -130,6 +133,10 @@ header h1 , h3 {
 	border: 1px solid #2980b9;
 	width: 20%;
 	border-radius: 50%;
+}
+.about p {
+	margin-top: 10px;
+	font-size: 20px;
 }
 
 .tools {
